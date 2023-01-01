@@ -11,7 +11,7 @@ export const AppRoutes = () =>{
         <Routes>
             <Route path='/' element={<Index/>}/>
             <Route path='/bgcolor'>
-                <Route path='*' element={<BackgroundColorChanger/>}/>
+                <Route path=':name' element={<BackgroundColorChanger/>}/>
             </Route> 
         </Routes>
     </div>
